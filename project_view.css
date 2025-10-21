@@ -1,0 +1,82 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    background-color: aliceblue;
+}
+.project-details { 
+    width: 10.5in; 
+    margin-left: 270px;
+    background-color: #fff; 
+    padding: 30px; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08); 
+}
+        
+.project-details h2 { 
+    text-align: center; 
+    margin-bottom: 30px; 
+}
+
+.project-details table { 
+    width: 100%; 
+    border-collapse: collapse; 
+}
+.project-details th, .project-details td { 
+    text-align: left; 
+    padding: 10px 15px; 
+    border-bottom: 1px solid #eee; 
+}
+.project-details th { 
+    width: 220px; 
+    background: #f8f9fa; 
+}
+
+        
+        .project-details input, .project-details select, .project-details textarea {
+            width: 100%;
+            padding: 8px 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 1em;
+            box-sizing: border-box;
+        }
+        .project-details textarea {
+            min-height: 60px;
+            resize: vertical;
+        }
+        .update-project {
+            display: inline-block;
+            background-color: darkgreen;
+            color: #fff;
+            padding: 10px 24px;
+            border-radius: 6px;
+            font-weight: bold;
+            border: none;
+            margin-top: 20px;
+        }
+        .cancel {
+            background: #7f8c8d;
+            display: inline-block;
+            color: #fff;
+            padding: 10px 24px;
+            border-radius: 6px;
+            font-weight: bold;
+            border: none;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+        .success-message {
+            color: #27ae60;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .error-message {
+            color: #e74c3c;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .button-container {
+            text-align: center;
+            align-items: center;
+        }
+    

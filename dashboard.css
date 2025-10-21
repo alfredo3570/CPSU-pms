@@ -1,0 +1,163 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+    line-height: 1.5;
+}
+
+
+.main-content {
+    margin-left: 270px;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.role {
+    color: #7f8c8d;
+    margin-bottom: 30px;
+}
+
+/* Dashboard summary cards */
+.dashboard-summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.summary-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.summary-card p {
+    color: #7f8c8d;
+    margin-bottom: 10px;
+}
+
+.summary-card h3 {
+    font-size: 25px;
+    color: #2c3e50;
+}
+
+/* Progress section */
+.progress-chart-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.progress-container {
+    flex: 2;
+    min-width: 300px;
+}
+
+.chart-container {
+    flex: 1;
+    max-width: 250px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+canvas {
+    max-height: 230px;
+}
+
+.progress-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 6px 16px;
+    border-radius: 12px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    margin-bottom: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.progress-item p {
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+    flex: 1;
+    color: #333;
+}
+
+.progress-bar {
+    flex: 1.5;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    height: 6px;
+    margin: 0 12px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background-color: #007bff;
+    border-radius: 8px;
+    transition: width 0.4s ease;
+}
+
+.progress-percent {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    width: 40px;
+    text-align: right;
+}
+
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Error message styles */
+.error-message {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Success message styles */
+.success-message {
+    background-color: #51cf66;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+} 
+

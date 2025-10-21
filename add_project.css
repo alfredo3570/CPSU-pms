@@ -1,0 +1,185 @@
+/* Unified Add Project page styles for dashboard consistency */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    background-color: aliceblue;
+}
+
+.container {
+    margin-left: 270px;
+    padding: 30px;
+}
+
+form {
+    width: 10.5in; /* Standard letter paper width */
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+    
+}
+
+h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.1rem;
+    color: #34495e;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #f8f9fa;
+    padding-bottom: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ecf0f1;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+    background: #f8f9fa;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(52,152,219,0.15);
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.btn,
+.add-milestone-btn {
+    background-color: forestgreen;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    max-width: 200px;
+    margin: 10px auto;
+    display: block;
+}
+
+.btn:hover,
+.add-milestone-btn:hover {
+    background-color: lightgreen;
+}
+
+.remove-milestone-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.remove-milestone-btn:hover {
+    background-color: #c0392b;
+}
+
+.message {
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #51cf66;
+    text-align: center;
+}
+
+.message.error {
+    background-color: #ff6b6b;
+}
+
+/* Milestone table styles */
+.milestone-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+}
+
+.milestone-table th,
+.milestone-table td {
+    border-bottom: 1px solid #ecf0f1;
+    padding: 15px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.milestone-table th {
+    background-color: #f8f9fa;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.milestone-table tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Map styles */
+#map {
+    height: 400px;
+    margin-bottom: 20px;
+    border: 1px solid #ecf0f1;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+}
+
+
+/* Loading state */
+.loading {
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+/* Form validation styles */
+input:invalid,
+textarea:invalid,
+select:invalid {
+    border-color: #e74c3c;
+}
+
+.error-message {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
